@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>1848-as forradalom és szabadságharc</title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- Import custom css file -->
+    <link type="text/css" rel="stylesheet" href="css/site.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="grey darken-4">
+    
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax">
+            <img src="img/bg.jpg">
+        </div>
+        <div class="row white-align flow-text center-align white-text" id="header">
+            <h1>1848-as</h1>
+            forradalom és szabadságharc
+        </div>
+    </div>
+    <div class="navbar-placeholder"></div>
+    <div class="navbar">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" id="brand-logo" class="brand-logo"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a onclick="openPage('fooldal');" href="#">Főoldal</a></li>
+                        <li><a onclick="openPage('elozmenyek');" href="#">Előzmények</a></li>
+                        <li><a onclick="openPage('esemenyek');" href="#">Események</a></li>
+                        <li><a onclick="openPage('kovetkezmenyek');" href="#">Következmények</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a onclick="openPage('fooldal');" href="#">Főoldal</a></li>
+            <li><a onclick="openPage('elozmenyek');" href="#">Előzmények</a></li>
+            <li><a onclick="openPage('esemenyek');" href="#">Események</a></li>
+            <li><a onclick="openPage('kovetkezmenyek');" href="#">Következmények</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="shell"></div>
+        </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    </body>
+</html>
+      

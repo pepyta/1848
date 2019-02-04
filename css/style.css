@@ -1,0 +1,19 @@
+.navbarfix {
+  top: 0;
+  position: fixed;
+}
+
+parallax {
+  height: 400px;
+}
+
+.navbar-placeholder {
+  height: 64px;
+  background: black;
+  width: 100%;
+}
+
+.project-title {
+  font-weight: bold;
+  color: black;
+}
