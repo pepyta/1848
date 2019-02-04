@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, {});
@@ -6,6 +7,7 @@ $(document).ready(function () {
     $('.scrollspy').scrollSpy();
     $('.sidenav').sidenav();
 });
+
 (function ($) {
     $(document).ready(function () {
         $(function () {
@@ -32,6 +34,7 @@ $(document).ready(function () {
     });
 }(jQuery));
 
+
 function openPage(page)
 {
     if (window.XMLHttpRequest)
@@ -52,3 +55,5 @@ function openPage(page)
     xmlhttp.open("GET", `html/${page}.html`, false );
     xmlhttp.send();    
 }
+
+openPage("fooldal");
